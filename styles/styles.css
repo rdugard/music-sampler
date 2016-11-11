@@ -1,0 +1,96 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+  background: #2f415e;
+  color: #fff;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  padding: 0 1%;
+}
+
+.main {
+  width: 55%;
+  float: left;
+padding-left: 1%;
+}
+
+.mainp {
+  width: 45%;
+  float: left;
+  padding: 2%;
+  background: #8e3d3d;
+}
+
+.picsforstyles {
+  clear: both;
+}
+
+#allalbumpics {
+  margin: 0 2px;
+  margin: auto;
+  max-width: 840px;
+}
+
+.albumcover {
+  padding: 4px;
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.music {
+  clear: both;
+  background: #182233;
+  max-width: 300px;
+  margin: auto;
+}
+
+a: link {
+  color: #9fc2f9;
+}
+a:visited {
+    color: #cc3d3d;
+}
+
+footer {
+  clear: both;
+  font-family: "Raleway", sans-serif;
+  background: #000;
+  margin: 0;
+  padding: 1%;
+}
+
+
+@media (max-width: 768px) {
+p { margin: 0;
+    padding: 0;}
+
+.main {
+  width: 100%;
+  float: none;
+  paddoing: 0;
+}
+
+.mainp {
+  width: 100%;
+  float: none;
+  padding: 0;
+}
+
+#limitlesspic, #thefalloutpic, #theresistancepic, #retrogradepic {
+  padding: 2%;
+}
+
+}
